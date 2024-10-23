@@ -1,0 +1,118 @@
+body {
+  font-family: 'Kavoon', cursive;
+  line-height: 1.6;
+  background-color: #086b0d;
+  margin: 0;
+  color: #000000;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header, footer {
+  background-color: #086b0d;
+  color: #000000;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header img {
+  height: 50px;
+  vertical-align: middle;
+}
+
+.topnav {
+  background-color: #D89F5B;
+  overflow: hidden;
+  border-radius: 35px;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+header h1 {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+footer h2 {
+  margin-bottom: 10px;
+}
+
+#informacoes-container {
+  padding: 20px;
+  background-color: #D89F5B;
+  border-radius: 8px;
+}
+
+
+h2 {
+  color: #000000;
+  font-size: 24px;
+}
+
+#tabela-povos {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+#tabela-povos th, #tabela-povos td {
+  border: 1px solid #000000;
+  padding: 8px;
+  text-align: left;
+}
+
+#tabela-povos th {
+  background-color: #D89F5B;
+}
+
+#tabela-povos tr:nth-child(even) {
+  background-color: #D89F5B;
+}
+
+#tabela-povos tr:hover {
+  background-color: #005700;
+}
+
+#tabela-povos td {
+  color: #000000;
+}
+
+#detalhes-povo {
+  margin-top: 20px;
+}
+
+#detalhes-povo p {
+  margin: 8px 0;
+}
+
+#detalhes-povo h3 {
+  color: #000000;
+  font-size: 20px;
+}

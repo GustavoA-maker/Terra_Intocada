@@ -1,8 +1,8 @@
-document.getElementById('denuncia-form').addEventListener('submit', function(event) {
+document.getElementById('denunciaform').addEventListener('submit', function(event) {
     event.preventDefault(); 
     
  
     
     alert('Denúncia enviada com sucesso!'); 
-    document.getElementById('denuncia-form').reset(); 
+    document.getElementById('denunciaform').reset(); 
 });

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terra Intocada</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="informações.css">
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Kavoon&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="../Logo1.png" type="image/png">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="../Logo1.png" alt="Logo">
+            <h1>Terra Intocada</h1>
+        </div>
+        <div class="topnav" id="myTopnav">
+            <a href="../Index.html">Página Inicial</a>
+            <a href="../lista de denúncias/lista_denuncias.html">Suas Denúncias</a>
+            <a href="../informações/informações.html" class="active">Informações</a>
+        </div>
+    </header>
+
+    <div class="container" id="informacoes-container">
+        <h2>Povos Indígenas</h2>
+        <table id="tabela-povos">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Local</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Dados serão inseridos aqui pelo JavaScript -->
+            </tbody>
+        </table>
+
+        <div id="detalhes-povo">
+            <h3>Detalhes do Povo Indígena</h3>
+            <p><strong>Nome:</strong> <span id="nome-povo"></span></p>
+            <p><strong>Local:</strong> <span id="local-povo"></span></p>
+            <p><strong>Etnia:</strong> <span id="etnia-povo"></span></p>
+            <p><strong>Origem:</strong> <span id="origem-povo"></span></p>
+            <p><strong>Cultura:</strong> <span id="cultura-povo"></span></p>
+            <p><strong>História:</strong> <span id="historia-povo"></span></p>
+        </div>
+    </div>
+
+    <footer>
+    </footer>
+
+    <script src="informações.js"></script>
+</body>
+</html>

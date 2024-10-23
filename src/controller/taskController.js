@@ -5,12 +5,12 @@ async function storeTask(request, response) {
 
     //Recuperando dados formulario
     const params = Array(
-        request.body.denunciaform
+        request.bdy.denunciaform
     );
 
-    const query = "INSERT INTO denuncia(denuncia1) VALUES(?)";
+    const query = "";
 
-    connection.query(query, params, (err, results) => {
+    connectin.query(query, params, (err, results) => {
         console.log(err, results);
         if(results) {
             response

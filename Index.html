@@ -23,9 +23,8 @@
         </div>
         <div class="topnav" id="myTopnav">
             <a href="Index.html" class="active">Página Inicial</a>
-            <a href="./lista de denúncias/lista_denuncias.html">Suas Denúncias</a>
-            <a href="./informações/informações.html">Informações</a>
-            <a href="">Usuaríos</a>
+            <a href="../lista de denúncias/lista_denuncias.html">Suas Denúncias</a>
+            <a href="../informações/informações.html">Informações</a>
     </header>
 
     <div id="map" class="map"></div>
@@ -34,8 +33,13 @@
         <div class="container">
             <h2>Enviar Denúncia</h2>
             <form id="denunciaform">
-                <textarea name="mensagem" placeholder="Digite sua denúncia aqui"></textarea>
-                <button type="submit">Enviar</button>
+                <textarea name="mensagem" id="denunciaMensagem" placeholder="Digite sua denúncia aqui"></textarea>
+                
+                <button id="submit" onclick="enviarDenuncia(event)"></button>
+                
+                <!-- 
+                <button id="submit" type="submit">Enviar</button>
+                -->
             </form>
         </div>
     </footer>

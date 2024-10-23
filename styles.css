@@ -24,14 +24,14 @@ header img {
 }
 
 .topnav {
-    background-color: #000000;
+    background-color: #D89F5B;
     overflow: hidden;
     border-radius: 35px;
   }
   .topnav a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: #000000;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -44,7 +44,7 @@ header img {
   }
 
   .topnav a.active {
-    background-color: #086b0d;
+    background-color: #ffffff;
     color: #000000;
   }
 
